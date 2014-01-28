@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="First Test Suite">
+	<parameter name="testServer" value="http://az.wmatrix.rio-dev.shalb.com/" />
+	<test name="OneTest">
+		<classes>
+			<class name="ua.rio.qa.tests.AddPostNotLogged"/>
+			
+		</classes>
+	</test>
+
+</suite>
